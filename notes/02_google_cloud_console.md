@@ -22,6 +22,11 @@ Google offers integrations for publicly hosted git repositories on GitHub and Bi
 
 5 View the running application in your browser by clicking Web Preview.
 
+# Notes
+
+While many tools and languages are included out of the box, there may be times you need to bring additional tools into your Cloud Shell VM. 
+Because everything outside of the $HOME directory will be lost after a short period of inactivity, installing new tools outside of $HOME is not a way
+
 
 
 
