@@ -1,0 +1,14 @@
+{
+  "name": "cloud_shell_app",
+  "version": "0.0.1",
+  "description": "A simple app for the Google Cloud Shell. Demonstrates use of the shell, the code editor, and web preview.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aliaksei Kaliutau",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
