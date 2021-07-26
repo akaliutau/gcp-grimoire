@@ -1,0 +1,17 @@
+.gitkeep
+01_gcp.md
+02_google_cloud_console.md
+03_gcp_apis.md
+04_google_app_engine.md
+05_google_kubernetes_engine.md
+06_google_cloud_functions.md
+07_google_compute_engine.md
+08_gcp_nosql.md
+09_gcp_cloud_sql.md
+10_google_cloud_storage.md
+11_stackdriver.md
+12_change_management.md
+13_gcp_networking.md
+14_gcp_messaging.md
+15_gcp_big_data.md
+out
