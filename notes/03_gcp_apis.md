@@ -120,5 +120,12 @@ gcloud components <install|remove> <COMPONENT_ID>
 
 # Configuration
 
-Run ```gcloud config list --all```. Because configuration properties are stored as key-value pairs, you can also directly read them with ```gcloud config get-value <PROPERTY>``` and change them with ```gcloud config set <PROPERTY> <VALUE>```
+Run ```gcloud config list --all```. Because configuration properties are stored as key-value pairs.
+
+you can also directly read and change them with the following commands:
+
+```
+gcloud config get-value <PROPERTY>
+gcloud config set <PROPERTY> <VALUE>
+```
 
