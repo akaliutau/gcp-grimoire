@@ -97,4 +97,12 @@ This approach has some resemblance with RPC technology
 Spanner is the world's first globally consistent, horizontally scalable database with full ACID compliance.
 
 
+# Performing a simple query
 
+With the data in place, we can execute queries against our Spanner instance using familiar ANSI 2011 SQL. 
+Navigate to your Cloud Spanner instance in the Cloud Console, select the library database, and click Query. 
+One can retrieve the top 10 most prolific authors in our library with the following query:
+
+```
+SELECT Author.author_name, count(AuthorBook.isbn) as num_booksFROM AuthorJOIN AuthorBookON Author.author_id = AuthorBook.author_idGROUP BY Author.author_nameORDER BY num_books DESCLIMIT 10;
+```
