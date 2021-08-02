@@ -106,3 +106,9 @@ One can retrieve the top 10 most prolific authors in our library with the follow
 ```
 SELECT Author.author_name, count(AuthorBook.isbn) as num_booksFROM AuthorJOIN AuthorBookON Author.author_id = AuthorBook.author_idGROUP BY Author.author_nameORDER BY num_books DESCLIMIT 10;
 ```
+
+# Data collocation and interleaving
+
+Cloud Spanner does not support arbitrary foreign key constraints, as doing so would introduce serious hurdles to how data is stored in a highly distributed environment. Instead, it supports the __interleaving__ of data, which provides both a method for implementing relational constraints, as well as a way to collocate related data for better performance.
+
+When a new table is created in Cloud Spanner, it may declare another table to be its parent, forming a hierarchical structure between the tables. A child table must include the parent's primary ID as a component in its own primary key. If the parent's primary key is a composite key, the child table must include all fields of the composite key in its own primary key, with the same order.
