@@ -12,7 +12,7 @@ Cloud Storage is a simple and easy to use general purpose object store, perfect 
 * Deep integration with many GCP and third-party products
 
 
-# Creating and using a bucket
+# Creating a bucket
 
 The protocol prefix gs:// is used to denote that a given path resides in Cloud Storage. From within the Cloud Shell, execute the following command to generate a unique bucket name:
 
@@ -31,6 +31,49 @@ Now that our bucket is created, you can view information about the bucket itself
 ```
 gsutil ls -bL $BUCKET_NAME
 ```
+
+
+# Uploading a file to the bucket
+
+```
+echo -e Hello, World > hello.txt
+gsutil cp hello.txt $BUCKET_NAME
+```
+
+# Storage classes and locations
+
+Cloud Storage offers four distinct storage classes:
+(1) Regional Storage
+(2) Multi-Regional Storage
+(3) Nearline Storage
+(4) Coldline Storage
+
+All Cloud Storage classes provide a very similar experience in most aspects, including the following:
+
+* A single set of APIs and tools
+* Low latency using Time To First Byte (TTFB)
+* 11 nines durability through erasure-coding
+* A very rich shared feature set
+
+One can check the storage using the following command:
+
+```
+gsutil stat $BUCKET_NAME/hello.txt
+```
+
+# Automating object management
+
+Being able to migrate objects between hot and cold storage classes creates significant cost saving opportunities. Cloud Storage supports automated migration strategies through Object Lifecycle Management.
+
+Object Lifecycle Management is configured on a per-bucket basis. Developers specify one or more conditions as well as an action to take. Supported actions may be either SetStorageClass or Delete . The action will be applied only when all co nditions are met. Supported conditions include the following:
+
+* Age (number) : The number of days since the object was initially created.
+* IsLive (boolean) : False when a versioned object is not the most recent version.
+* CreatedBefore (date) : True for any object with a creation time before the specified date.
+* MatchesStorageClass (string) : True for objects that match one of the provided storage classes.
+* NumberOfNewerVersions (number) : For versioned objects, true when N or more newer versions of the object exist.
+
+ 
 
 # Integrations
 
