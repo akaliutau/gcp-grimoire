@@ -89,4 +89,11 @@ Some of the other GCP products that integrate with Cloud Storage include the fol
 * Cloud Dataprep :For sanitizing and formatting Cloud Storage files for further use
 * Cloud Logging : Export logs to Cloud Storage for long-term retention
 
+# Concrete example: integrating with Google Cloud Functions
+
+Before continuing, check that the Google Cloud Vision API is enabled for this project: navigate to https://console.developers.google.com/apis/api/vision.googleapis.com/overview and click the Enable Cloud Vision API button.
+
+The codebase can be found in code/10a directory
+
+
  
