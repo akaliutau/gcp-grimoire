@@ -1,6 +1,6 @@
 # About
 
-This repository contains references and recipes related to Google Computing Platform (GCP).
+This repository contains references/recipes/overviews which are related to Google Computing Platform (GCP). I used these materials mostly as notes during perparation to GCP certification exam.
 
 # Content
 
@@ -36,4 +36,64 @@ This repository contains references and recipes related to Google Computing Plat
 
 # References
 
-[1] https://cloud.google.com/
+](https://cloud.google.com/
+
+## Cloud Computing
+
+* [Google Cloud Architecture Framework ](https://cloud.google.com/architecture/framework)
+* [Google Cloud Adoption Framework ](https://cloud.google.com/adoption-framework)
+* [Kubernetes CLI ](https://kubernetes.io/docs/reference/kubectl/overview/#syntax)
+* [gsutil Tool ](https://cloud.google.com/storage/docs/gsutil)
+* [bq CLI ](https://cloud.google.com/bigquery/docs/bq-command-line-tool)
+* [gcloud CLI ](https://cloud.google.com/sdk/gcloud/reference)
+
+## Cloud Identity
+
+* [Cloud Identity product overview ](https://cloud.google.com/identity)
+* [Security Authentication vs Authorization: What You Need to Know ](https://towardsdatascience.com/security-authentication-vs-authorization-what-you-need-to-know-b8ed7e0eae74)
+* [Single Sign-On Best Practices for Google Cloud ](https://www.youtube.com/watch?time_continue=20&v=9-GMVX_OOG0&feature=emb_title)
+
+## Resource Management
+
+* [Cloud Resource Manager Concepts ](https://cloud.google.com/resource-manager/docs/concepts)
+* [Google Cloud Platform Resource Management] (https://www.youtube.com/watch?v=MzclA_hdNLY)
+
+## Cloud Identity and Access Management
+
+* [Cloud IAM Overview ](https://cloud.google.com/iam/docs/overview)
+* [BeyondCorp ](https://cloud.google.com/beyondcorp)
+* [Audit Logging ](https://cloud.google.com/iam/docs/audit-logging)
+
+## Networking
+
+* [VPC Overview ](https://cloud.google.com/vpc/docs/overview)
+* [Best Practices and Reference Architectures for VPC Design ](https://cloud.google.com/solutions/best-practices-vpc-design)
+* [Mukesh Khattar - Mitigating Data Exfiltration Risks in GCP Using VPC Service Controls ](https://medium.com/google-cloud/mitigating-data-exfiltration-risks-in-gcp-using-vpc-service-controls-part-1-82e2b440197)
+
+## Compute and Containers
+
+* [GKE Overview ](https://cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview)
+* [GCE Concepts ](https://cloud.google.com/compute/docs/concepts)
+* [Machine Types ](https://cloud.google.com/compute/docs/machine-types)
+* [Storage Options for Compute Engine ](https://cloud.google.com/compute/docs/disks)
+
+## Storage, Databases, and Data Analytics
+
+* [gsutil Tool ](https://cloud.google.com/storage/docs/gsutil)
+* [Using the bq Command-Line Tool ](https://cloud.google.com/bigquery/docs/bq-command-line-tool)
+* [Platform Overview - Data & Storage ](https://www.youtube.com/watch?v=tc2940Zwvyk)
+
+## DevOps
+
+* [Software Delivery for Beginners Series Intro ](https://medium.com/@gwright_60924/software-delivery-for-beginners-series-intro-751b90fbe078)
+
+## Cloud Operations
+
+* [Principles of Chaos Engineering ](https://principlesofchaos.org/)
+* [Site Reliability Engineering ](https://landing.google.com/sre/)
+* [Patterns for Scalable and Resilient Apps ](https://cloud.google.com/solutions/scalable-and-resilient-apps)
+
+## Security
+
+* [Capital One’s Cybersecurity Breach](https://www.cyberscoop.com/capital-one-cybersecurity-data-breach-what-went-wrong/)
+* [OWASP Top Ten ](https://owasp.org/www-project-top-ten/)
