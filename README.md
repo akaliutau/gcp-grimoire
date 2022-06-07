@@ -36,7 +36,7 @@ This repository contains references/recipes/overviews which are related to Googl
 
 # References
 
-](https://cloud.google.com/
+[Google Cloud Platform](https://cloud.google.com/
 
 ## Cloud Computing
 
@@ -56,7 +56,7 @@ This repository contains references/recipes/overviews which are related to Googl
 ## Resource Management
 
 * [Cloud Resource Manager Concepts ](https://cloud.google.com/resource-manager/docs/concepts)
-* [Google Cloud Platform Resource Management] (https://www.youtube.com/watch?v=MzclA_hdNLY)
+* [Google Cloud Platform Resource Management](https://www.youtube.com/watch?v=MzclA_hdNLY)
 
 ## Cloud Identity and Access Management
 
