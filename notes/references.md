@@ -86,3 +86,92 @@
 
 # Cloud Functions
 
+[Cloud Functions behind the scenes](https://cloud.google.com/functions/docs/concepts/exec)
+[Cloud Functions and VPC](https://cloud.google.com/functions/docs/connecting-vpc)
+[Local Emulator](https://cloud.google.com/functions/docs/emulator)
+[Cold Starts](https://cloud.google.com/functions/docs/bestpractices/tips)
+[Quotas](https://cloud.google.com/functions/quotas)
+[Pricing](https://cloud.google.com/functions/pricing-summary/)
+[The gcloud command](https://cloud.google.com/sdk/gcloud/reference/functions/deploy)
+[Cloud Run](https://cloud.google.com/run/)
+
+# Networking
+
+[VPC](https://cloud.google.com/vpc/docs/)
+[Firewalls](https://cloud.google.com/vpc/docs/firewalls)
+[Load balancing](https://cloud.google.com/load-balancing/docs/)
+[Interconnects](https://cloud.google.com/interconnect/docs/)
+[VPN](https://cloud.google.com/vpn/docs/)
+[DNS](https://cloud.google.com/dns/docs/)
+[NAT](https://cloud.google.com/nat/docs/)
+[Alias IP addresses](https://cloud.google.com/vpc/docs/alias-ip)
+
+# Cloud Storage
+
+[Cloud Storage](https://cloud.google.com/storage/docs/)
+[Cloud Datastore](https://cloud.google.com/datastore/docs/)
+[Cloud SQL](https://cloud.google.com/sql/docs/)
+[Cloud SQL pricing](https://cloud.google.com/sql/pricing)
+[Importing data into Cloud SQL](https://cloud.google.com/sql/docs/mysql/import-export/importing)
+[Exporting data from Cloud SQL](https://cloud.google.com/sql/docs/mysql/import-export/exporting)
+[Cloud Spanner](https://cloud.google.com/spanner/docs/)
+[Cloud Spanner Pricing](https://cloud.google.com/spanner/pricing)
+[Bigtable](https://cloud.google.com/Bigtable/docs/)
+[Bigtable Pricing](https://cloud.google.com/Bigtable/pricing)
+
+# Big Data Analytics
+
+
+For Cloud Pub/Sub, refer to the following:
+
+ [Pub/Sub](https://cloud.google.com/pubsub/docs/)
+ [Pricing](https://cloud.google.com/pubsub/pricing)
+ [Quotas](https://cloud.google.com/pubsub/quotas)
+ [Complex event processing](https://cloud.google.com/solutions/architecture/complex-event-processing)
+ [Use cases](https://cloud.google.com/pubsub/docs/overview)
+
+ For Cloud Dataflow, refer to the following:
+ 
+ [Dataflow](https://cloud.google.com/dataflow/docs/)
+ [Pricing](https://cloud.google.com/dataflow/pricing)
+ [Quotas](https://cloud.google.com/dataflow/quotas)
+
+ For BigQuery, refer to the following:
+ 
+ [BigQuery](https://cloud.google.com/bigquery/docs/)
+ [Pricing](https://cloud.google.com/bigquery/pricing)
+ [Quotas](https://cloud.google.com/bigquery/quotas)
+
+For Dataproc, refer to the following:
+
+ [Dataproc](https://cloud.google.com/dataproc/docs/)
+ [Quotas](https://cloud.google.com/compute/quotas)
+ [Pricing](https://cloud.google.com/dataproc/pricing)
+
+For Cloud IoT Core, refer to the following:
+
+ [Cloud IoT Core](https://cloud.google.com/iot/docs/)
+ [Quotas](https://cloud.google.com/iot/quotas)
+ [Pricing](https://cloud.google.com/iot/pricing)
+
+For Data Fusion, refer to the following:
+
+ [Data Fusion](https://cloud.google.com/data-fusion/docs/resources)
+ [Quotas](https://cloud.google.com/data-fusion/quotas)
+ [Pricing](https://cloud.google.com/data-fusion/pricing)
+
+ For Datastream, refer to https://cloud.google.com/datastream
+
+# ML
+
+[ML building blocks](https://cloud.google.com/products/ai/)
+[Dialogflow](https://cloud.google.com/dialogflow/docs/)
+[ML Engine](https://cloud.google.com/ml-engine/docs/)
+[Cloud AutoML](https://cloud.google.com/automl/docs/)
+[TensorFlow](https://www.tensorflow.org/)
+[AI adventures video](https://www.youtube.com/watch?v=nKW8Ndu7Mjw)
+[Speech-to-Text](https://cloud.google.com/speech-to-text/docs/basics)
+[Vertex AI](https://cloud.google.com/vertex-ai/docs)
+
+
+
