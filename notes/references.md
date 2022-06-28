@@ -173,5 +173,39 @@ For Data Fusion, refer to the following:
 [Speech-to-Text](https://cloud.google.com/speech-to-text/docs/basics)
 [Vertex AI](https://cloud.google.com/vertex-ai/docs)
 
+# Security
+
+[Difference bentween CI and IAM](https://support.google.com/cloudidentity/answer/7431902?hl=en)
+[PCI](https://cloud.google.com/solutions/pci-dss-compliance-in-gcp)
+
+[Cloud Identity](https://cloud.google.com/identity/docs/)
+[IAM](https://cloud.google.com/iam/docs/)
+[Encryption](https://cloud.google.com/storage/docs/encryption/)
+[Cloud IAP](https://cloud.google.com/iap/docs/)
+[Security Command Center](https://cloud.google.com/securitycommand-center/docs/)
+[Cloud Armor](https://cloud.google.com/armor/docs/)
+[Google Cloud Security Foundations Guide](https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf)
+[Best Practices Guides](https://cloud.google.com/security/bestpractices#section-1)
+
+
+# Tooling
+
+[Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundationtoolkit)
+
+[APIs Explorer](https://developers.google.com/apis-explorer/#p/)
+[gsutil](https://cloud.google.com/storage/docs/gsutil)
+[cbt](https://cloud.google.com/bigtable/docs/quickstart-cbt)
+[gcloud](https://cloud.google.com/sdk/gcloud/)
+[bq](https://cloud.google.com/bigquery/docs/bq-command-linetool)
+[Cloud Deployment Manager](https://cloud.google.com/deploymentmanager/docs/)
+
+# Monitoring
+
+[Google Cloud's operations suite docs](https://cloud.google.com/stackdriver/docs/)
+[Monitoring agent](https://cloud.google.com/monitoring/agent/)
+[Logging agent](https://cloud.google.com/logging/docs/agent/)
+[Debugger](https://cloud.google.com/debugger/docs/setup/python)
+[Profiler](https://cloud.google.com/profiler/docs/about-profiler)
+[Error Reporting](https://cloud.google.com/error-reporting/docs/setup/compute-engine)
 
 
