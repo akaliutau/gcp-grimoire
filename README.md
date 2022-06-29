@@ -36,7 +36,7 @@ This repository contains references/recipes/overviews which are related to Googl
 
 # References
 
-[Google Cloud Platform](https://cloud.google.com/
+[Google Cloud Platform](https://cloud.google.com/)
 
 ## Cloud Computing
 
