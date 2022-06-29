@@ -1,6 +1,6 @@
 # Index
 
-This section is an index of important topics which are more likely to be mentioned in GPA certification exam
+This section is an index of important topics which are more likely to be mentioned in GPA certification exam.
 Useful to go through once again a day before exam
 
 # General topics related to cloud computing
@@ -212,4 +212,15 @@ For Data Fusion, refer to the following:
 - [Profiler](https://cloud.google.com/profiler/docs/about-profiler)
 - [Error Reporting](https://cloud.google.com/error-reporting/docs/setup/compute-engine)
 
+# Exam-related: Case Studies
 
+- [Mountkirk Games](https://services.google.com/fh/files/blogs/master_case_study_mountkirk_games.pdf)
+- [Helicopter Racing League](https://services.google.com/fh/files/blogs/master_case_study_helicopter_racing_league.pdf)
+- [EHR Healthcare](https://services.google.com/fh/files/blogs/master_case_study_ehr_healthcare.pdf)
+- [TerramEarth](https://services.google.com/fh/files/blogs/master_case_study_terramearth.pdf)
+
+Additional references:
+
+- [GCP solutions](https://cloud.google.com/solutions)
+- [GCP reference architecture](https://cloud.google.com/architecture)
+- [Open-ended solution repository](http://gcp.solutions/)
