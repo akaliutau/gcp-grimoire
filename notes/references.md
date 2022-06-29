@@ -103,14 +103,18 @@ Useful to go through once again a day before exam
 
 # Networking
 
+- [Routers](https://cloud.google.com/router/docs/concepts/overview)
 - [VPC](https://cloud.google.com/vpc/docs/)
 - [Firewalls](https://cloud.google.com/vpc/docs/firewalls)
+- [Private Access options](https://cloud.google.com/vpc/docs/private-access-options)
 - [Load balancing](https://cloud.google.com/load-balancing/docs/)
 - [Interconnects](https://cloud.google.com/interconnect/docs/)
 - [VPN](https://cloud.google.com/vpn/docs/)
 - [DNS](https://cloud.google.com/dns/docs/)
 - [NAT](https://cloud.google.com/nat/docs/)
+- [Network Endpoint Group (NEG)](https://cloud.google.com/loadbalancing/docs/https/setting-up-https-serverless)
 - [Alias IP addresses](https://cloud.google.com/vpc/docs/alias-ip)
+- [Endpoints](https://cloud.google.com/endpoints)
 
 # Cloud Storage
 
@@ -185,6 +189,7 @@ For Data Fusion, refer to the following:
 - [PCI](https://cloud.google.com/solutions/pci-dss-compliance-in-gcp)
 - [Cloud Identity](https://cloud.google.com/identity/docs/)
 - [IAM](https://cloud.google.com/iam/docs/)
+- [IAP](https://cloud.google.com/iap/docs/cloud-iap-context-aware-access-howto)
 - [Encryption](https://cloud.google.com/storage/docs/encryption/)
 - [Cloud IAP](https://cloud.google.com/iap/docs/)
 - [Security Command Center](https://cloud.google.com/securitycommand-center/docs/)
