@@ -1,3 +1,8 @@
+# Index
+
+This section is an index of important topics which are more likely to be mentioned in GPA certification exam
+Useful to go through once again a day before exam
+
 # General topics related to cloud computing
 
 - [Containerd](https://containerd.io)
@@ -178,7 +183,6 @@ For Data Fusion, refer to the following:
 
 - [Difference bentween CI and IAM](https://support.google.com/cloudidentity/answer/7431902?hl=en)
 - [PCI](https://cloud.google.com/solutions/pci-dss-compliance-in-gcp)
-
 - [Cloud Identity](https://cloud.google.com/identity/docs/)
 - [IAM](https://cloud.google.com/iam/docs/)
 - [Encryption](https://cloud.google.com/storage/docs/encryption/)
@@ -192,7 +196,6 @@ For Data Fusion, refer to the following:
 # Tooling
 
 - [Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundationtoolkit)
-
 - [APIs Explorer](https://developers.google.com/apis-explorer/#p/)
 - [gsutil](https://cloud.google.com/storage/docs/gsutil)
 - [cbt](https://cloud.google.com/bigtable/docs/quickstart-cbt)
