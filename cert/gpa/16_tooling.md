@@ -186,10 +186,14 @@ gcloud compute instances create: Create a VM instance.
 gcloud compute instances describe: Display a VM instance's details.
 gcloud compute instances list: List all VM instances in a project.
 gcloud compute instance-groups managed resize: resize the MIG
+gcloud compute instances simulate-maintenance-event
 gcloud compute disks snapshot: Create snapshot of persistent disks.
 gcloud compute snapshots describe: Display a snapshot's details.
 gcloud compute snapshots delete: Delete a snapshot.
 gcloud compute ssh: Connect to a VM instance by using SSH.
+gcloud compute sole-tenancy node-templates create: the same as templates but for sole-tenancy use-case
+gcloud compute sole-tenancy node-groups create:    the same as templates but for sole-tenancy use-case
+
 ```
 
 Serverless & App Engine
