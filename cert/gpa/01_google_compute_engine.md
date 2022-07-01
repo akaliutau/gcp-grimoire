@@ -214,7 +214,13 @@ A maintenance event is when Compute Engine stops a VM to perform a hardware or s
 Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails.
 Shielded VM instances run firmware which is signed and verified using Google's Certificate Authority, ensuring that the instance's firmware is unmodified and establishing the root of trust for Secure Boot.
 
+# Using labels
 
+Labels are key-value pairs that can be used on Google Cloud to group related or associated resources. For example, on Compute Engine, you can use labels to group VMs in categories such as production, staging, or development and  take advantage of the nested filtering feature to perform more precise searches for your resources using labels.
+
+Labels are a separate tool that allow you to create annotations for resources. 
+
+Tags are structured as a key/value pair. A tag key resource can be created under your organization resource, and tag values are resources that are attached to a key, f.e. a tag key `environment` with values `PROD` and `DEV`.
 
 
 
