@@ -4,54 +4,101 @@
 
 ## kubectl
 
+https://kubernetes.io/docs/reference/kubectl/
+
 This is the syntax to run kubectl commands from console:
 
 ```
 kubectl [command] [TYPE] [NAME] [flags]
 ```
 
-where command, TYPE are:
+where command, TYPE, NAME are:
 
 command: Specifies the operation that you want to perform on one or more resources, for example `create`, `get`, `describe`, `delete`.
 
 TYPE: Specifies the resource type, normally it's a noun in a plural form (but this is only in general)
 
+NAME: Specifies the name of the resource. Names are _case-sensitive_. If the name is omitted, details for all resources are displayed (i.e. type is a noun in a plural form, `kubectl get pods`)
+
 ## Examples
 
-kubectl apply - Apply or Update a resource from a file or stdin.
-
-Create a service using the definition in example-service.yaml.
+kubectl apply - Apply or Update a resource from a file or stdin (Note the similarity with TF and IaaC-style of resources deployment)
 
 ```
+# Create a service using the definition in example-service.yaml.
 kubectl apply -f example-service.yaml
-```
 
-Create a replication controller using the definition in example-controller.yaml.
-
-```
+# Create a replication controller using the definition in example-controller.yaml.
 kubectl apply -f example-controller.yaml
-```
 
-Create the objects that are defined in any .yaml, .yml, or .json file within the <directory> directory.
-
-```
+# Create the objects that are defined in any .yaml, .yml, or .json file within the <directory> directory.
 kubectl apply -f <directory>
 ```
 
-
 kubectl get - List one or more resources.
 
-List all pods in plain-text output format.
-
 ```
+# List all pods in plain-text output format.
 kubectl get pods
-```
 
-List all pods in plain-text output format and include additional information (such as node name).
-
-```
+# List all pods in plain-text output format and include additional information (such as node name).
 kubectl get pods -o wide
 ```
+
+kubectl exec - Execute a command against a container in a pod (Note, some commands have resemblance with docker's ones)
+The double dash (--) in the command signals the end of command options for kubectl. Everything after the double dash is the command that should be executed _inside the pod_
+
+```
+# Get output from running linux-command 'date' from pod <pod-name>. By default, output is from the first container.
+kubectl exec <pod-name> -- date
+
+# Get output from running linux-command 'date' in container <container-name> of pod <pod-name>.
+kubectl exec <pod-name> -c <container-name> -- date
+
+# Get an interactive TTY and run /bin/bash from pod <pod-name>. By default, output is from the first container.
+kubectl exec -ti <pod-name> -- /bin/bash
+```
+
+kubectl logs - Print the logs for a container in a pod.
+
+```
+# Return a snapshot of the logs from pod <pod-name>.
+kubectl logs <pod-name>
+
+# Start streaming the logs from pod <pod-name>. This is similar to the 'tail -f' Linux command or `logs --follow` of Docker.
+kubectl logs -f <pod-name>
+```
+
+kubectl diff - View a diff of the proposed updates to a cluster.
+The single dash (-) in the command means the output from previous command in the pipe
+
+```
+# Diff resources included in "pod.json".
+kubectl diff -f pod.json
+
+# Diff file read from stdin.
+cat service.yaml | kubectl diff -f -
+```
+
+One can extend K8s using the custom code written in executable files (normally bash-scripts) which names start with the prefix "kubectl-"
+You can think of plugins as a means to build more complex functionality on top of the existing kubectl commands. kubectl will detect such scripts automatically by name
+
+Mapping between **kubectl** and **docker** commands
+
+|   docker command                                                                  | kubectl command                                                  |
+|-----------------------------------------------------------------------------------|------------------------------------------------------------------|
+| docker run -d --restart=always -e DOMAIN=cluster --name nginx-app -p 80:80 nginx  | kubectl create deployment --image=nginx nginx-app                |
+|                                                                                   | kubectl set env deployment/nginx-app  DOMAIN=cluster             |
+|                                                                                   | kubectl expose deployment nginx-app --port=80 --name=nginx-http  |
+| docker ps -a                                                                      | kubectl get po                                                   |
+| docker attach 55c103fa1296                                                        | kubectl attach -it nginx-app-5jyvm                               |
+| docker exec 55c103fa1296 cat /etc/hostname                                        | kubectl exec nginx-app-5jyvm -- cat /etc/hostname                |
+| docker logs --follow 55c103fa1296                                                 | kubectl logs -f nginx-app-zibvs                                  |
+| docker stop a9ec34d98787                                                          | kubectl delete deployment nginx-app                              |
+| docker info                                                                       | kubectl cluster-info                                             |
+
+
+[K8s cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 ## gsutil
 
@@ -173,7 +220,7 @@ gcloud auth configure-docker: Register the gcloud CLI as a Docker credential hel
 gcloud container clusters create: Create a cluster to run GKE containers.
 gcloud container clusters list: List clusters for running GKE containers.
 gcloud container clusters get-credentials: Update kubeconfig to get kubectl to use a GKE cluster.
-gcloud container clusters resize: change the size of cluster.
+gcloud container clusters resize: change the size of cluster (can do also using `--enable-autoscaling` flag)
 gcloud container images list-tags: List tag and digest metadata for a container image.
 ```
 

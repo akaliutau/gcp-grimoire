@@ -58,10 +58,11 @@ Useful to go through once again a day before exam
 - [PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [Network Policies](https://kubernetes.io/docs/concepts/servicesnetworking/network-policies/)
 - [Quotas](https://cloud.google.com/kubernetes-engine/quotas)
+- [Kubernetes RBAC](https://kubernetes.io/docs/reference/accessauthn-authz/rbac/)
 - [Container Registry](https://cloud.google.com/containerregistry/docs/overview)
 - [Cloud Build](https://cloud.google.com/cloud-build/docs/configuring-builds/create-basic-configuration)
 - [Cloud builders](https://cloud.google.com/cloud-build/docs/cloud-builders)
-- [Kubernetes RBAC](https://kubernetes.io/docs/reference/accessauthn-authz/rbac/)
+
 
 # Google Cloud Run (GCR)
 
