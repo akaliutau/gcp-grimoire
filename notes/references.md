@@ -191,10 +191,10 @@ For Data Fusion, refer to the following:
 - [IAP](https://cloud.google.com/iap/docs/cloud-iap-context-aware-access-howto)
 - [Encryption](https://cloud.google.com/storage/docs/encryption/)
 - [Cloud IAP](https://cloud.google.com/iap/docs/)
-- [Security Command Center](https://cloud.google.com/securitycommand-center/docs/)
+- [Security Command Center](https://cloud.google.com/security-command-center/docs/)
 - [Cloud Armor](https://cloud.google.com/armor/docs/)
 - [Google Cloud Security Foundations Guide](https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf)
-- [Best Practices Guides](https://cloud.google.com/security/bestpractices#section-1)
+- [Best Practices Guides](https://cloud.google.com/security/best-practices#section-1)
 
 
 # Tooling
