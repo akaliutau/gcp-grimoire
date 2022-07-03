@@ -185,7 +185,6 @@ For Data Fusion, refer to the following:
 
 # Security
 
-- [Difference bentween CI and IAM](https://support.google.com/cloudidentity/answer/7431902?hl=en)
 - [PCI](https://cloud.google.com/solutions/pci-dss-compliance-in-gcp)
 - [Cloud Identity](https://cloud.google.com/identity/docs/)
 - [IAM](https://cloud.google.com/iam/docs/)
