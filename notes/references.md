@@ -199,7 +199,7 @@ For Data Fusion, refer to the following:
 
 # Tooling
 
-- [Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundationtoolkit)
+- [Cloud Foundation Toolkit (CFT)](https://cloud.google.com/foundation-toolkit)
 - [APIs Explorer](https://developers.google.com/apis-explorer/#p/)
 - [gsutil](https://cloud.google.com/storage/docs/gsutil)
 - [cbt](https://cloud.google.com/bigtable/docs/quickstart-cbt)
