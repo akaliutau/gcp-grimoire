@@ -113,9 +113,8 @@ Useful to go through once again a day before exam
 - [VPN](https://cloud.google.com/vpn/docs/)
 - [DNS](https://cloud.google.com/dns/docs/)
 - [NAT](https://cloud.google.com/nat/docs/)
-- [Network Endpoint Group (NEG)](https://cloud.google.com/loadbalancing/docs/https/setting-up-https-serverless)
 - [Alias IP addresses](https://cloud.google.com/vpc/docs/alias-ip)
-- [Endpoints](https://cloud.google.com/endpoints)
+- [Cloud Endpoints](https://cloud.google.com/endpoints/docs)
 
 # Cloud Storage
 
