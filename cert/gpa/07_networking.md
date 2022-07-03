@@ -105,3 +105,19 @@ There are three options, depending on where your API is hosted and the type of c
 - Cloud Endpoints for OpenAPI
 - Cloud Endpoints for gRPC
 - Cloud Endpoints Frameworks for the App Engine standard environment
+
+# Carrier Peering
+
+Carrier Peering enables you to access Google applications, such as Google Workspace, by using a service provider to obtain enterprise-grade network services that connect your infrastructure to Google. When connecting to Google through a service provider, you can get connections with higher availability and lower latency, using one or more links.
+
+NOTE: this does not give private IP addressing across the connection; note also that  an additional Internet connection will not provide RFC1918 communications by itself.
+
+# VPC Service control
+
+VPC Service Controls improves your ability to mitigate the risk of data exfiltration from Google Cloud services such as Cloud Storage and BigQuery. You can use VPC Service Controls to create perimeters that protect the resources and data of services that you explicitly specify.
+
+
+
+
+
+ 

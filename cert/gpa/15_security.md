@@ -58,7 +58,12 @@ There are the following ways to encrypt your data when using Cloud Storage:
 
 Each project has a special Cloud Storage service account called a service agent that performs encryption and decryption with customer-managed encryption keys.
 
-NOTE: You must create the Cloud KMS key in the same location as the data you intend to encrypt.
+NOTE: You must create the Cloud KMS key in the same location as the data you intend to encrypt. 
+To use key Multi-regionally, choose `global` location: `gcloud kms keyrings create "sample-keyring" --location "global"`
+
+The `global` location is a special multi-region. Its datacenters are spread throughout the world. It is not possible to predict or control exactly which datacenters are selected or where they are located
+Some CMEK integrations don't support the global location. Plus there may be geographic residency requirements for keys
+
 
 For Customer-supplied encryption keys with Cloud EKM, you can use keys that you manage within a supported external key management partner to protect data within Google Cloud. In all cases, the key resides on the external system, and is never sent to Google.
 
@@ -68,6 +73,21 @@ External keys can be stored in the following external key management partner sys
 - Futurex
 - Thales
 - Virtru
+
+NOTE: secret management system such as Secret Manager is a secure and convenient storage system for API keys, passwords, certificates, and other sensitive data. Secret Manager provides a central place and single source of truth to manage, access, and audit secrets across Google Cloud.
+
+# De-identifying sensitive data
+
+Cloud Data Loss Prevention (CDLP) can de-identify sensitive data in text content, including text stored in container structures such as tables.
+The API detects sensitive data such as personally identifiable information (PII), and then uses a de-identification transformation to mask, delete, or otherwise obscure the data. 
+
+Examples of de-identification techniques:
+
+- Masking sensitive data by partially or fully replacing characters with a symbol, such as an asterisk (*) or hash (#).
+- Replacing each instance of sensitive data with a token, or surrogate, string.
+- Encrypting and replacing sensitive data using a randomly generated or pre-determined key
+
+Also CDLP can redact sensitive text from an image via infoType detectors and Cloud Vision: Cloud DLP inspects an image for text, detects sensitive data within the text, and then returns an image with any matching sensitive data obscured by an opaque rectangle
 
 # Security Command Center
 
