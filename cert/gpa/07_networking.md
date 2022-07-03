@@ -116,8 +116,24 @@ NOTE: this does not give private IP addressing across the connection; note also 
 
 VPC Service Controls improves your ability to mitigate the risk of data exfiltration from Google Cloud services such as Cloud Storage and BigQuery. You can use VPC Service Controls to create perimeters that protect the resources and data of services that you explicitly specify.
 
+Security benefits of VPC Service Controls:
+
+- Access from unauthorized networks using stolen credentials: By allowing private access only from authorized VPC networks, VPC Service Controls protects against theft of OAuth credentials or service account credentials.
+
+- Data exfiltration by malicious insiders or compromised code: VPC Service Controls complements network egress controls by preventing clients within those networks from accessing the resources of Google-managed services outside the perimeter. VPC Service Controls also prevents reading data from or copying data to a resource outside the perimeter. VPC Service Controls prevents service operations such as a `gsutil cp` command copying to a public Cloud Storage bucket or a `bq mk` command copying to a permanent external BigQuery table.
+
+Google Cloud also provides a restricted virtual IP that is used integrated with VPC Service Controls. The restricted VIP also allows requests to be made to services supported by VPC Service Controls without exposing those requests to the internet.
+
+- Public exposure of private data caused by misconfigured IAM policies: VPC Service Controls provides an extra layer of security by denying access from unauthorized networks, even if the data is exposed by misconfigured IAM policies.
+
+- Monitoring access to services: Use VPC Service Controls in dry run mode to monitor requests to protected services without preventing access and to understand traffic requests to your projects.
 
 
+VPC Service Controls lets to:
 
-
+- Isolate Google Cloud resources and VPC networks into service perimeters
+- Extend perimeters to on-premises networks to authorized VPN or Cloud Interconnect
+- Control access to Google Cloud resources from the internet
+- Protect data exchange across perimeters and organizations by using ingress and egress rules
+- Allow context-aware access to resources based on client attributes by using ingress rules
  
