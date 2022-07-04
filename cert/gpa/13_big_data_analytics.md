@@ -1,3 +1,15 @@
+# Some Google Cloud Platform Managed Services
+
+- BigQuery: Peta-scale analytics database solution, ideal for warehousing and data-lakes
+- Cloud Inference API: Correlations over time-series data
+- Natural Language: Text analysis, including sentiment analysis and classification
+- Cloud Datalab: Interactive data analysis tool based on Jupyter Notebooks
+- Cloud Dataprep: Explore, clean, and prepare structured data (usually is used to prepare data for analysis and machine learning)
+- Google Data Studio: Dashboard and reporting tool
+- Data Catalog: Metadata management service
+
+
+
 
 # BigQuery data loading
 

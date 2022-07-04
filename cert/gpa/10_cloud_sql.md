@@ -10,6 +10,7 @@
 - Use InnoDB (InnoDB is the only supported storage engine for MySQL instances)
 - MySQL import and migration jobs containing metadata with DEFINER clause (because a MySQL import or migration job doesn't migrate user data, sources and dump files which contain metadata defined by users with the DEFINER clause will fail to be imported or migrated as the users do not yet exist there)
 - Verify the imported database (f.e. connect and list the databases, tables, and specific entries, etc)
+- In case of vertical scaling of DBs: increase the size of disk vs CPU power, because there is a linear dependency between size of disk and IOPS
 
 # References
 

@@ -1,3 +1,9 @@
+# Level of abstractions in GKE
+
+- Pods are the lowest level of the computation abstractions.
+- Deployments are collections of pods running a version of an application. 
+- Services are sets of deployments running an application, possibly with multiple versions running in different deployments.
+
 # General notes
 
 `gcloud` commands are used to manipulate a K8s cluster at GCP.

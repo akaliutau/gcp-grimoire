@@ -1,3 +1,6 @@
+# Network Availability
+
+Data within the GCP can be transmitted among regions using the public Internet or Google’s internal network. The latter is available as the Premium Network Tier, which costs more than the Standard Network Tier, which uses the public Internet. The internal Google network is designed for high availability and low latency, so the Premium Tier should be considered if global network availability is a concern.
 
 # Reserved IP addresses in IPv4 subnets
 Every subnet has four reserved IP addresses in its primary IP range. There are no reserved IP addresses in the secondary IP ranges.

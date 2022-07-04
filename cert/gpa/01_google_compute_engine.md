@@ -111,13 +111,9 @@ VMs running on sole-tenant nodes can use the same Compute Engine features as oth
 Use-cases for sole-tenant nodes:
 
 - Gaming workloads with performance requirements.
-
 - Finance or healthcare workloads with security and compliance requirements.
-
 - Windows workloads with licensing requirements.
-
 - Machine learning, data processing, or image rendering workloads. For these workloads, consider reserving GPUs.
-
 - Workloads requiring increased input/output operations per second (IOPS) and decreased latency, or workloads that use temporary storage in the form of caches/processing space/low-value data. For these workloads, consider reserving local SSDs.
 
 
@@ -213,6 +209,11 @@ A maintenance event is when Compute Engine stops a VM to perform a hardware or s
 
 Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails.
 Shielded VM instances run firmware which is signed and verified using Google's Certificate Authority, ensuring that the instance's firmware is unmodified and establishing the root of trust for Secure Boot.
+
+Shielded VMs are instances with enhanced security controls, including the following:
+- Secure boot
+- vTPM
+- Integrity monitoring
 
 # Using labels
 
