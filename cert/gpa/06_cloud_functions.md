@@ -1,3 +1,13 @@
+# Cloud Functions triggers
+
+Cloud Functions does not work with all possible events in the cloud platform; instead, it is designed to respond to five kinds of events.
+
+- Cloud Storage
+- Cloud Pub/Sub
+- HTTP
+- Firebase
+- Stackdriver Logging
+
 # Environment
 
 Cloud Functions run in a fully-managed serverless environment where Google handles infrastructure, operating systems, and runtime environments completely on your behalf. Each function runs in its own isolated secure execution context, scales automatically, and has a lifecycle independent from other functions.

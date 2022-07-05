@@ -10,6 +10,8 @@ Features:
 
 In Identity and Access Management (IAM), access is granted through _allow policies_ (aka IAM policies). An allow policy is attached to a Google Cloud resource. Each allow policy contains a collection of _role bindings_ that associate one or more principals, such as users or service accounts, with an IAM role. 
 
+NOTE: You cannot grant a permission directly to a user—you must grant it by assigning an identity a role.
+
 # Identity-Aware Proxy (IAP) 
 
 Identity-Aware Proxy (IAP) access policies use access levels and the Identity and Access Management (IAM) Conditions Framework to decide who can get access to GCP resources (Zero-Trust security model).
@@ -108,5 +110,9 @@ PCI =  Payment Card Industry Data Security Standard (PCI DSS)
 - Secure your external IdP when using single sign-on: Cloud Identity and Google Workspace let you set up single sign-on with your external IdP such as Active Directory, Azure Active Directory, or Okta
 - Use a separate staging organization
 
+# Logging
 
-
+Logs are exported from Stackdriver, which supports the following three export methods:
+- JSON files to Cloud Storage
+- Logging tables to BigQuery datasets
+- JSON messages to Cloud Pub/Su

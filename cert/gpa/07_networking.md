@@ -85,6 +85,7 @@ This can be achieved using command for appropriate subnet: `gcloud compute netwo
 Proxy load balancers terminate incoming client connections and open new connections from the load balancer to the backends. 
 Pass-through load balancers do not terminate client connections. Instead, load-balanced packets are received by backend VMs with the packet's source, destination, and, if applicable, port information unchanged. Connections are then terminated by the backend VMs. Responses from the backend VMs go directly to the clients, not back through the load balancer.
 
+Note: All global load balancers require the Premium Tier network, which routes all data over the Google global network and not the public Internet
 
 HTTP and HTTPS traffic:
 - Global external HTTP(S) load balancer
@@ -115,6 +116,11 @@ Carrier Peering enables you to access Google applications, such as Google Worksp
 
 NOTE: this does not give private IP addressing across the connection; note also that  an additional Internet connection will not provide RFC1918 communications by itself.
 
+# Direct Peering
+
+Direct peering allows customers to connect their networks to a Google network point of access and exchange Border Gateway Protocol (BGP) routes, which define paths for transmitting data between networks.
+
+
 # VPC Service control
 
 VPC Service Controls improves your ability to mitigate the risk of data exfiltration from Google Cloud services such as Cloud Storage and BigQuery. You can use VPC Service Controls to create perimeters that protect the resources and data of services that you explicitly specify.
@@ -139,4 +145,13 @@ VPC Service Controls lets to:
 - Control access to Google Cloud resources from the internet
 - Protect data exchange across perimeters and organizations by using ingress and egress rules
 - Allow context-aware access to resources based on client attributes by using ingress rules
+
+# Network topologies.
+
+- Mirrored topology. In this topology, the public cloud and private on-premise environments mirror each other. This topology could be used to set up test or disaster recovery environments.
+- Meshed topology. With this topology, all systems within all clouds and private networks can communicate with each other.
+- Gated egress topology. In this topology, on-premises service APIs are made available to applications running in the cloud without exposing them to the public Internet.
+- Gated ingress topology. With this topology, cloud service APIs are made available to applications running on premises without exposing them to the public Internet.
+- Gated egress and ingress topology. This topology combines gated egress and gated ingress.
+- Handover topology. In this topology, applications running on premises upload data to a shared storage service, such as Cloud Storage, and then a service running in GCP consumes and processes that data. This is commonly used with data warehousing and analytic services.
  

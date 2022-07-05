@@ -1,4 +1,11 @@
 
+# FUSE
+
+[Filesystem in Userspace (FUSE)](https://github.com/GoogleCloudPlatform/gcsfuse/) is a framework for exposing a filesystem to the Linux kernel. Note: Cloud Storage FUSE is _not_ a filesystem like NFS. It does not implement a filesystem or a hierarchical directory structure. It does interpret / characters in filenames as directory delimiters.
+
+Cloud Storage FUSE is useful when you want to move files easily back and forth between Cloud Storage and a Compute Engine VM, a local server, or your development device using filesystem commands instead of `gsutil` commands or the cloud console.
+
+
 # Requester Pays model
 
 Whenever a user accesses a Cloud Storage resource such as a bucket or object, there are charges associated with making and executing the request. Such charges include:

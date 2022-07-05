@@ -126,49 +126,49 @@ Useful to go through once again a day before exam
 - [Exporting data from Cloud SQL](https://cloud.google.com/sql/docs/mysql/import-export/exporting)
 - [Cloud Spanner](https://cloud.google.com/spanner/docs/)
 - [Cloud Spanner Pricing](https://cloud.google.com/spanner/pricing)
-- [Bigtable](https://cloud.google.com/Bigtable/docs/)
-- [Bigtable Pricing](https://cloud.google.com/Bigtable/pricing)
+- [Bigtable](https://cloud.google.com/bigtable/docs/overview)
+- [Bigtable Pricing](https://cloud.google.com/bigtable/pricing)
 
 # Big Data Analytics
 
 
 For Cloud Pub/Sub, refer to the following:
 
- - [Pub/Sub](https://cloud.google.com/pubsub/docs/)
- - [Pricing](https://cloud.google.com/pubsub/pricing)
- - [Quotas](https://cloud.google.com/pubsub/quotas)
- - [Complex event processing](https://cloud.google.com/solutions/architecture/complex-event-processing)
- - [Use cases](https://cloud.google.com/pubsub/docs/overview)
+- [Pub/Sub](https://cloud.google.com/pubsub/docs/)
+- [Pricing](https://cloud.google.com/pubsub/pricing)
+- [Quotas](https://cloud.google.com/pubsub/quotas)
+- [Complex event processing](https://cloud.google.com/solutions/architecture/complex-event-processing)
+- [Use cases](https://cloud.google.com/pubsub/docs/overview)
 
  For Cloud Dataflow, refer to the following:
  
- - [Dataflow](https://cloud.google.com/dataflow/docs/)
- - [Pricing](https://cloud.google.com/dataflow/pricing)
- - [Quotas](https://cloud.google.com/dataflow/quotas)
+- [Dataflow](https://cloud.google.com/dataflow/docs/)
+- [Pricing](https://cloud.google.com/dataflow/pricing)
+- [Quotas](https://cloud.google.com/dataflow/quotas)
 
  For BigQuery, refer to the following:
  
- - [BigQuery](https://cloud.google.com/bigquery/docs/)
- - [Pricing](https://cloud.google.com/bigquery/pricing)
- - [Quotas](https://cloud.google.com/bigquery/quotas)
+- [BigQuery](https://cloud.google.com/bigquery/docs/)
+- [Pricing](https://cloud.google.com/bigquery/pricing)
+- [Quotas](https://cloud.google.com/bigquery/quotas)
 
 For Dataproc, refer to the following:
 
- - [Dataproc](https://cloud.google.com/dataproc/docs/)
- - [Quotas](https://cloud.google.com/compute/quotas)
- - [Pricing](https://cloud.google.com/dataproc/pricing)
+- [Dataproc](https://cloud.google.com/dataproc/docs/)
+- [Quotas](https://cloud.google.com/compute/quotas)
+- [Pricing](https://cloud.google.com/dataproc/pricing)
 
 For Cloud IoT Core, refer to the following:
 
- - [Cloud IoT Core](https://cloud.google.com/iot/docs/)
- - [Quotas](https://cloud.google.com/iot/quotas)
- - [Pricing](https://cloud.google.com/iot/pricing)
+- [Cloud IoT Core](https://cloud.google.com/iot/docs/)
+- [Quotas](https://cloud.google.com/iot/quotas)
+- [Pricing](https://cloud.google.com/iot/pricing)
 
 For Data Fusion, refer to the following:
 
- - [Data Fusion](https://cloud.google.com/data-fusion/docs/resources)
- - [Quotas](https://cloud.google.com/data-fusion/quotas)
- - [Pricing](https://cloud.google.com/data-fusion/pricing)
+- [Data Fusion](https://cloud.google.com/data-fusion/docs/resources)
+- [Quotas](https://cloud.google.com/data-fusion/quotas)
+- [Pricing](https://cloud.google.com/data-fusion/pricing)
 
  For Datastream, refer to https://cloud.google.com/datastream
 
