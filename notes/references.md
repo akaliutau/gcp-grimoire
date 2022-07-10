@@ -223,8 +223,60 @@ For Data Fusion, refer to the following:
 - [EHR Healthcare](https://services.google.com/fh/files/blogs/master_case_study_ehr_healthcare.pdf)
 - [TerramEarth](https://services.google.com/fh/files/blogs/master_case_study_terramearth.pdf)
 
-Additional references:
+# Additional references:
 
 - [GCP solutions](https://cloud.google.com/solutions)
 - [GCP reference architecture](https://cloud.google.com/architecture)
 - [Open-ended solution repository](http://gcp.solutions/)
+
+
+## Cloud Computing
+
+- [Google Cloud Architecture Framework ](https://cloud.google.com/architecture/framework)
+- [Google Cloud Adoption Framework ](https://cloud.google.com/adoption-framework)
+- [Kubernetes CLI ](https://kubernetes.io/docs/reference/kubectl/overview/#syntax)
+
+## Cloud Identity
+
+- [Security Authentication vs Authorization: What You Need to Know ](https://towardsdatascience.com/security-authentication-vs-authorization-what-you-need-to-know-b8ed7e0eae74)
+- [Single Sign-On Best Practices for Google Cloud ](https://www.youtube.com/watch?time_continue=20&v=9-GMVX_OOG0&feature=emb_title)
+
+## Resource Management
+
+- [Cloud Resource Manager Concepts ](https://cloud.google.com/resource-manager/docs/concepts)
+- [Google Cloud Platform Resource Management](https://www.youtube.com/watch?v=MzclA_hdNLY)
+
+## Cloud Identity and Access Management
+
+- [BeyondCorp ](https://cloud.google.com/beyondcorp)
+
+## Networking
+
+- [VPC Overview ](https://cloud.google.com/vpc/docs/overview)
+- [Best Practices and Reference Architectures for VPC Design ](https://cloud.google.com/solutions/best-practices-vpc-design)
+- [Mukesh Khattar - Mitigating Data Exfiltration Risks in GCP Using VPC Service Controls ](https://medium.com/google-cloud/mitigating-data-exfiltration-risks-in-gcp-using-vpc-service-controls-part-1-82e2b440197)
+
+## Compute and Containers
+
+- [GCE Concepts ](https://cloud.google.com/compute/docs/concepts)
+- [Machine Types ](https://cloud.google.com/compute/docs/machine-types)
+- [Storage Options for Compute Engine ](https://cloud.google.com/compute/docs/disks)
+
+## Storage, Databases, and Data Analytics
+
+- [Platform Overview - Data & Storage ](https://www.youtube.com/watch?v=tc2940Zwvyk)
+
+## DevOps
+
+- [Software Delivery for Beginners Series Intro ](https://medium.com/@gwright_60924/software-delivery-for-beginners-series-intro-751b90fbe078)
+
+## Cloud Operations
+
+- [Principles of Chaos Engineering ](https://principlesofchaos.org/)
+- [Site Reliability Engineering ](https://landing.google.com/sre/)
+- [Patterns for Scalable and Resilient Apps ](https://cloud.google.com/solutions/scalable-and-resilient-apps)
+
+## Security
+
+- [Capital One’s Cybersecurity Breach](https://www.cyberscoop.com/capital-one-cybersecurity-data-breach-what-went-wrong/)
+- [OWASP Top Ten ](https://owasp.org/www-project-top-ten/)
