@@ -1,9 +1,9 @@
 # Exam preparation notes
 
-* [01 google compute_engine](./01_google_compute_engine.md)
-* [02 google application_engine](./02_google_application_engine.md)
-* [03 google kubernetes_engine](./03_google_kubernetes_engine.md)
-* [04 google cloud_run](./04_google_cloud_run.md)
+* [01 google compute engine](./01_google_compute_engine.md)
+* [02 google application engine](./02_google_application_engine.md)
+* [03 google kubernetes engine](./03_google_kubernetes_engine.md)
+* [04 google cloud run](./04_google_cloud_run.md)
 * [05 anthos](./05_anthos.md)
 * [06 cloud functions](./06_cloud_functions.md)
 * [07 networking](./07_networking.md)
