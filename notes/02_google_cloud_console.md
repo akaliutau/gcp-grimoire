@@ -12,9 +12,9 @@ This will create the proxy and open a new browser tab to the public proxy URL. T
 
 Google offers integrations for publicly hosted git repositories on GitHub and BitBucket. With the click of a button, one can clone git repositories into their Cloud Shell $HOME directory and then open them in a new Cloud Shell Code Editor session.
 
-1 Visit the git repository (https://github.com/akalu/gcp-grimoire) and click Open in Cloud Shell.
+1 Visit the git repository (https://github.com/akaliutau/gcp-grimoire) and click Open in Cloud Shell.
 
-2 In the shell window, go to the Cloud Shell demo directory with cd code.
+2 In the shell window, go to the Cloud Shell demo directory (`/code/02`)
 
 3 Install node dependencies with ```npm install```
 
